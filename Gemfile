@@ -6,12 +6,12 @@ group :base do
   gem 'rake'
   gem 'drake'
   gem 'json'
-  gem 'rack'
+  gem 'rack', '>= 2.2.8.1'
 end
 
 group :doc do
   # Last version that worked on Ruby 1.8
-  gem 'nokogiri', '1.5.9'
+  gem 'nokogiri', '1.15.6'
   gem 'mizuho'
   gem 'bluecloth'
 end
