@@ -6,7 +6,7 @@ group :base do
   gem 'rake'
   gem 'drake'
   gem 'json'
-  gem 'rack'
+  gem 'rack', '>= 2.2.11'
 end
 
 group :doc do
