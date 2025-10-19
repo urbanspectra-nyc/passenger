@@ -12,7 +12,7 @@ GEM
       nokogiri (>= 1.4.0)
       sqlite3
     nokogiri (1.5.9)
-    rack (1.5.2)
+    rack (3.2.3)
     rake (10.3.2)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -34,6 +34,9 @@ DEPENDENCIES
   mime-types (= 1.25)
   mizuho
   nokogiri (= 1.5.9)
-  rack
+  rack (>= 2.2.20)
   rake
   rspec (= 2.14.1)
+
+BUNDLED WITH
+   2.3.27
